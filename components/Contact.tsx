@@ -105,7 +105,7 @@ export default function Contact() {
         
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-4">Let's Connect.</h2>
-          <p className="text-xl text-gray-400">Have a question or a project in mind? Send me a message or mail at shashwatshrivastava04@gmail.com.</p>
+          <p className="text-xl text-gray-400">Have a question or a project in mind? Send me a message. </p>
         </div>
 
         <div ref={formRef} className="bg-zinc-950 border border-zinc-800 p-8 md:p-12 rounded-3xl shadow-2xl relative overflow-hidden">

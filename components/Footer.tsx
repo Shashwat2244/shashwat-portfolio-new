@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import { HiOutlineMail } from "react-icons/hi";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,8 +11,16 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         
         {/* Copyright Section (Left aligned on desktop, centered on mobile) */}
-        <div className="flex-1 text-center md:text-left text-sm font-medium">
-          &copy; {currentYear} Shashwat Shrivastava. All rights reserved.
+        <div className="flex-1 flex flex-col md:flex-row items-center md:items-start gap-3 text-center md:text-left text-sm font-medium">
+          <span>&copy; {currentYear} Shashwat Shrivastava. All rights reserved.</span>
+          <span className="hidden md:inline text-zinc-700">|</span>
+          <a 
+            href="mailto:shashwatshrivastava04@gmail.com"
+            className="flex items-center gap-1.5 hover:text-white transition-colors duration-300"
+          >
+            <HiOutlineMail size={18} />
+            <span>shashwatshrivastava04@gmail.com</span>
+          </a>
         </div>
 
         {/* Social Links (Perfectly centered) */}
