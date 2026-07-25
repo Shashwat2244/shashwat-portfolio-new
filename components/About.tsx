@@ -43,7 +43,7 @@ export default function About() {
 
       <div ref={buttonsRef} className="flex flex-col sm:flex-row gap-6 mt-8">
         <a 
-          href="https://drive.google.com/file/d/1M7nBGg9SLeCgR24ofGjeGmejjZjVW8Kq/view?usp=sharing" // Update with your actual path
+          href="https://drive.google.com/file/d/1P6FQydG7Fs4k5wK308zFp_YAPiHsyvOG/view?usp=sharing" // Update with your actual path
           target="_blank"
           className="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-colors text-center"
         >
