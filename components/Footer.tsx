@@ -7,13 +7,12 @@ export default function Footer() {
 
   return (
     <footer className="py-10 pb-28 md:pb-10 bg-black border-t border-zinc-900 text-zinc-500 relative z-10">
-      {/* Added pb-28 on mobile to ensure the chatbot doesn't overlap the footer content */}
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         
-        {/* Copyright Section (Left aligned on desktop, centered on mobile) */}
-        <div className="flex-1 flex flex-col md:flex-row items-center md:items-start gap-3 text-center md:text-left text-sm font-medium">
-          <span>&copy; {currentYear} Shashwat Shrivastava. All rights reserved.</span>
-          <span className="hidden md:inline text-zinc-700">|</span>
+        {/* Copyright and Email Section (Forced inline to prevent wrapping misalignments) */}
+        <div className="flex-1 flex flex-wrap items-center justify-center md:justify-start gap-3 text-center md:text-left text-sm font-medium">
+          <span>&copy; {currentYear} Shashwat Shrivastava.</span>
+          <span className="hidden lg:inline text-zinc-700">|</span>
           <a 
             href="mailto:shashwatshrivastava04@gmail.com"
             className="flex items-center gap-1.5 hover:text-white transition-colors duration-300"
