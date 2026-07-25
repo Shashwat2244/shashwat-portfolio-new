@@ -43,10 +43,11 @@ const certifications = [
     link: "https://files.codingninjas.in/certificate1740914e084121ac1f23a1dae622345b71fd084.pdf"
   },
   {
-    title: "Advanced Software Engineering Virtual Experience Program",
-    issuer: "Walmart USA & Forage",
-    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Walmart%20USA/oX6f9BbCL9kJDJzfg_Walmart%20USA_B538ZSaQKZCMfFzfA_1685966918202_completion_certificate.pdf"
-  },{
+    title: "PCAP: Programming Essentials in Python",
+    issuer: "Python Institute",
+    link: "https://drive.google.com/file/d/1fxk_IC9BRvUd0Bs9EgP3gjG-opvmc-4P/view"
+  },
+  {
     title: "Software Engineering Virtual Experience Program",
     issuer: "Hewlett Packard Enterprise & Forage",
     link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Hewlett%20Packard%20Enterprise/da2T3WZCbMAJD7bNB_Hewlett%20Packard%20Enterprise_B538ZSaQKZCMfFzfA_1686057692567_completion_certificate.pdf"
