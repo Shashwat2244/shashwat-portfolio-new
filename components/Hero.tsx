@@ -29,7 +29,7 @@ export default function Hero() {
           Shashwat Shrivastava
         </h1>
         <h2 className="text-xl md:text-3xl text-gray-400 font-light max-w-2xl mx-auto">
-          Associate Software Consultant, Data Engineer & Full Stack Developer
+          Associate Technical Consultant, Data Engineer & Full Stack Developer
         </h2>
       </div>
       
