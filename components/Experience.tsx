@@ -14,7 +14,7 @@ const experiences = [
     description: [
       "Engineered the data pipelines (Apache Spark, Hadoop) and interactive Power BI dashboards for a centralized workforce platform supporting ~4,000 employees.",
       "Designed and deployed cloud-native web applications using Java, React, REST APIs, and a microservices architecture.",
-      "Optimized backend architecture to reduce response latency by 25% across targeted workflows by implementing Redis caching, advanced database query tuning, and API-level enhancements."
+      "Optimized backend architecture to reduce response latency by 25% across targeted workflows by implementing Redis caching, advanced database query tuning, and API-level enhancements.",
       "Streamlined complex data extraction using Python, Pandas, and SQL, while championing Agile/SDLC practices and CI/CD pipelines to ensure consistent, reliable production releases."
     ]
   },
