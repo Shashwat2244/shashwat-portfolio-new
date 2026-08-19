@@ -12,9 +12,10 @@ const experiences = [
     location: "Bengaluru, India",
     date: "Jan 2025 - Present",
     description: [
-      "Promoted from internship to full-time role; expanded scope to full-stack development using Java, React, and TailwindCSS.",
-      "Performed data analysis on 3000+ workforce records using Python and Pandas, reducing reporting turnaround by 55%.",
-      "Built 15+ reusable UI components in ReactJS, boosting frontend performance by 30%."
+      "Engineered the data pipelines (Apache Spark, Hadoop) and interactive Power BI dashboards for a centralized workforce platform supporting ~4,000 employees.",
+      "Designed and deployed cloud-native web applications using Java, React, REST APIs, and a microservices architecture.",
+      "Optimized backend architecture to reduce response latency by 25% across targeted workflows by implementing Redis caching, advanced database query tuning, and API-level enhancements."
+      "Streamlined complex data extraction using Python, Pandas, and SQL, while championing Agile/SDLC practices and CI/CD pipelines to ensure consistent, reliable production releases."
     ]
   },
   {
