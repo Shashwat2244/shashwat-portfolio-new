@@ -48,7 +48,7 @@ const projects = [
     description: " Engineered a horizontally scalable real-time chat architecture using Spring Boot, WebSockets, and Apache Kafka, decoupling message ingress from egress to increase theoretical concurrent connection limits from 10k to 100k+.",
     tech: ["Java", "Spring Boot", "Redis", "Kafka", "Docker", "WebSockets"],
     link: "https://github.com/Shashwat2244/Broadcast-Chat",
-    color: "bg-grey-900",
+    color: "bg-yellow-600",
   },
   {
     title: "Ping Pong Game",
