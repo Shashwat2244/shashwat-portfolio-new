@@ -43,6 +43,14 @@ const projects = [
     color: "bg-indigo-900",
   },
   {
+    title: "Distributed Real-Time Fan-Out Engine",
+    category: "Backend Development",
+    description: " Engineered a horizontally scalable real-time chat architecture using Spring Boot, WebSockets, and Apache Kafka, decoupling message ingress from egress to increase theoretical concurrent connection limits from 10k to 100k+.",
+    tech: ["Java", "Spring Boot", "Redis", "Kafka", "Docker", "WebSockets"],
+    link: "https://github.com/Shashwat2244/Broadcast-Chat",
+    color: "bg-grey-900",
+  },
+  {
     title: "Ping Pong Game",
     category: "Game Development",
     description: "Developed a 2D ping pong game with scoring, collision detection, and sound effects using JavaScript and HTML5 Canvas.",
