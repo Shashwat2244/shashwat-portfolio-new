@@ -9,6 +9,13 @@ const projects = [
     tech: ["NodeJS", "Express", "MongoDB", "Bootstrap"],
     link: "https://github.com/Shashwat2244/Social_Media", 
     color: "bg-blue-900",
+  },{
+    title: "Financial Settlements & Reconciliation Engine",
+    category: "Data Engineering",
+    description: "A cloud-based automated reconciliation engine that detects revenue leakage, financial anomalies, and orphaned payments to recover lost funds.",
+    tech: ["Python", "SQL", "Snowflake", "AWS", "DuckDB", "Streamlit", "Docker", "PySpark"],
+    link: "https://github.com/Shashwat2244/Financial-Reconciliation-Engine",
+    color: "bg-lime-500",
   },
   {
     title: "Credit Card Fraud Detection",
