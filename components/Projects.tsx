@@ -15,7 +15,7 @@ const projects = [
     description: "A cloud-based automated reconciliation engine that detects revenue leakage, financial anomalies, and orphaned payments to recover lost funds.",
     tech: ["Python", "SQL", "Snowflake", "AWS", "DuckDB", "Streamlit", "Docker", "PySpark"],
     link: "https://github.com/Shashwat2244/Financial-Reconciliation-Engine",
-    color: "bg-rose-400",
+    color: "bg-orange-700",
   },
   {
     title: "Credit Card Fraud Detection",
